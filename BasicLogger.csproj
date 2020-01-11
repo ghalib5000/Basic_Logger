@@ -1,7 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Basic.Logger</PackageId>
+    <Authors>Ghalib</Authors>
+    <Product>Basic Logger</Product>
+    <Description>A very basic and easy to use logger that logs imformation and/or errors to file</Description>
+    <RepositoryUrl>https://github.com/ghalib5000/Basic_Logger</RepositoryUrl>
+    <PackageTags>Logger, Logging, Log</PackageTags>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
 </Project>
